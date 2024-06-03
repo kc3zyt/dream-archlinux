@@ -2,7 +2,7 @@
 
 pkgname=dream
 pkgver=2.1.1
-pkgrel=4
+pkgrel=5
 pkgdesc="A software radio for AM and Digital Radio Mondiale (DRM)"
 arch=(i686 x86_64)
 url="https://sourceforge.net/projects/drm"
@@ -29,5 +29,5 @@ build() {
 package() {
   cd "${srcdir}/${pkgname}"
 
-  make INSTALL_ROOT=${pkgdir} install
+  make INSTALL_ROOT="${pkgdir}" install
 }
