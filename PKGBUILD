@@ -13,7 +13,7 @@ arch=(i686 x86_64)
 url="https://sourceforge.net/projects/drm"
 license=(GPL-2.0-only)
 depends=(alsa-lib fftw glibc gpsd hamlib libfdk-aac libgcc libsndfile libstdc++ qt6-base qwt speexdsp zlib)
-makeepends=(cmake)
+makedepends=(cmake)
 source=("https://github.com/hpeter3/$pkgname/archive/$_gitrev.zip")
 sha256sums=('b64c74b87590fe75901abd6ad31e95f2f8d093cdac004f6e6316d7be8171c156')
 
